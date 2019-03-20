@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 
+* {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+:root {
+  --space: 1.5em 0;
+}
+
+body {
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Site-content:after {
+  content: '\00a0';
+  display: block;
+  margin-top: var(--space);
+  height: 0;
+  visibility: hidden;
+}
